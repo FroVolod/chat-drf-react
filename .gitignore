@@ -1,0 +1,7 @@
+.vscode
+.next
+*.pyc
+db.sqlite3
+
+venv
+node_modules
