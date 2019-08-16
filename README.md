@@ -36,6 +36,7 @@
 
 7. Register a new user:
     7.1
+    
         ```
         curl -X POST http://localhost:8000/auth/users/ -d "username="user1"&password="user-1-pas""
 
