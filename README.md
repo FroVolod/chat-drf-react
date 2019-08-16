@@ -35,6 +35,7 @@
     {compiled successfully - ready on http://localhost:3000}
 
 7. Register a new user:
+
     7.1
     
         ```
@@ -43,6 +44,7 @@
             {"username":"user1","id":5}
         ```
     7.2
+    
         In the browser click "Sign up" [Password must contain at least 8 characters.]
 
 8. Login as user:
