@@ -43,4 +43,5 @@
         {"username":"user1","id":5}
     ```
   8.2. From the browser: click "Sign up" [Password must contain at least 8 characters.]
+  
 9. Login as a user: In the browser, click "Sign in"
