@@ -40,6 +40,7 @@
     cd "C:\path\to\the\project\folder"
     docker-compose up
     ```
+
     {compiled successfully - ready on http://localhost:3000}
 
 ## Register a new user:
@@ -48,9 +49,10 @@
 
         ```
         curl -X POST http://localhost:8000/auth/users/ -d "username=user1&password=user-1-pas"
-
-            {"username":"user1","id":5}
         ```
+
+        {"username":"user1","id":5}
+
 2. From the browser: click "Sign up" [Password must contain at least 8 characters.]
   
 3. Login as a user: In the browser, click "Sign in"
