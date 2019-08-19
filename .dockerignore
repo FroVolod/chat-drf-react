@@ -1,0 +1,8 @@
+.vscode
+.gitignore
+
+venv
+www
+
+db.sqlite3
+README.md

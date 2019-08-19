@@ -33,15 +33,28 @@
     ```
     
     {compiled successfully - ready on http://localhost:3000}
-8. Register a new user:
 
-  8.1. From the command line:
+## Usage with Docker
 
     ```
-    curl -X POST http://localhost:8000/auth/users/ -d "username=user1&password=user-1-pas"
-
-        {"username":"user1","id":5}
+    cd "C:\path\to\the\project\folder"
+    docker-compose up
     ```
-  8.2. From the browser: click "Sign up" [Password must contain at least 8 characters.]
+    {compiled successfully - ready on http://localhost:3000}
+
+## Register a new user:
+
+1. From the command line:
+
+        ```
+        curl -X POST http://localhost:8000/auth/users/ -d "username=user1&password=user-1-pas"
+
+            {"username":"user1","id":5}
+        ```
+2. From the browser: click "Sign up" [Password must contain at least 8 characters.]
   
-9. Login as a user: In the browser, click "Sign in"
+3. Login as a user: In the browser, click "Sign in"
+
+
+
+ 
